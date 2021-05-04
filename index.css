@@ -4,7 +4,6 @@
   left: 0; 
 
   /* Preserve aspet ratio */
-  max-width: screen.max-width;
-  min-width: screen.max-width;
-  min-height: 100%;
+  min-width: screen.min-width;
+  min-height: screen.min-height;
 }
